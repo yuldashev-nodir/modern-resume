@@ -11,7 +11,6 @@
     width: 280px;
     padding: 20px;
     border: 3px solid orange;
-    /* border-radius: 10px; */
 }
 
 .img img {
@@ -49,7 +48,8 @@
 }
 .ss{
     border-bottom: 5px solid black;
-    width: 30px;
+    width: 27px;
+    font-size: 20px;
 }
 
 .skills p, .skills span {
@@ -81,6 +81,7 @@
     background: orange;
     border-radius: 3px;
     position: relative;
+    margin-right: 20px;
   
 }
 
@@ -139,6 +140,12 @@
 .flex{
     display: flex;
     gap: 200px;
+}
+.flex1{
+    display: flex;
+    gap: 200px;
+    border-bottom: 2px solid black;
+    gap: 20px;
 }
 .flx{
  display: flex;
