@@ -1,41 +1,95 @@
-body{
-    border: 2px solid black;
-    width: 20%;
-    height: 1020px;
-    margin-left: 3%;
-}
 
-img{
-    width: 220px;
-    height: 230px;
-    padding: 0;
-    margin: 0;
-    margin-left: 55px;
-    border: 5px;
-    margin-top: 15px;
-}
-.icons{
-    margin: 30px;
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    border: 40px solid orange;
-    border-bottom: 40px;
-    
-}
-.text p{
-    font-family: sans-serif;
-    margin-left: 10px;
-}
-h1{
-    font-size: 40px;
-    margin-left: 55px;
-}
-p{
-    margin-left: 30px;
-}
-skills , h2{
-margin-left: 20px;
+.main {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 
+.container {
+    width: 280px;
+    padding: 20px;
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text h1 {
+    font-size: 22px;
+    line-height: 25px;
+    margin: 10px 0 5px 0;
+}
+
+.as {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.icons a {
+    font-size: 25px;
+    color: orange;
+}
+
+.pp {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.skills {
+    margin-top: 10px;
+}
+.ss{
+    border-bottom: 5px solid orange;
+    width: 30px;
+}
+
+.skills p, .skills span {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+
+.container2 {
+    flex: 1;
+    padding: 20px;
+}
+
+.scnd {
+    font-size: 26px;
+    margin-bottom: 10px;
+    border-bottom: 5px solid orange;
+    width: 30px;
+}
+.third{
+    font-size: 26px;
+     border-bottom: 5px solid orange;
+     width: 30px;
+
+}
+.flex{
+    display: flex;
+    gap: 200px;
+}
+.flx{
+ display: flex;
+ gap: 200px;
+ border-bottom: 2px solid black;
+}
+.fr{
+    border-bottom: 5px solid orange;
+    width: 30px;
+}
+.br{
+   border-right: 2px solid #000;
+   margin-right: 1009px;
+}
+.txt {
+    font-size: 17px;
+}
